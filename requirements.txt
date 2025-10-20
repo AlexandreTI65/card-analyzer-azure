@@ -1,0 +1,23 @@
+# Sistema de Análise de Cartão com Azure AI
+# Dependências mínimas - Sistema funciona apenas com Python padrão!
+
+# NENHUMA DEPENDÊNCIA EXTERNA É NECESSÁRIA!
+# O sistema usa apenas bibliotecas padrão do Python 3.8+:
+# - http.server (servidor web integrado)
+# - json (processamento JSON)
+# - re (expressões regulares para validação)
+# - datetime (manipulação de datas)
+# - socket (comunicação de rede)
+# - base64 (codificação de dados)
+# - os (variáveis de ambiente)
+
+# Dependências opcionais para Azure (descomente se quiser usar APIs reais):
+# azure-cognitiveservices-vision-computervision>=0.9.0
+# azure-ai-formrecognizer>=3.2.0
+# requests>=2.31.0
+
+# Para desenvolvimento (opcionais):
+# python-dotenv>=1.0.0  # Facilita carregamento de .env
+# pytest>=7.0.0         # Para executar testes
+# black>=23.0.0          # Para formatação automática do código
+# flake8>=6.0.0          # Para análise de código
